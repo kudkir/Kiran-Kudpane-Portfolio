@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #211832;
+    color: #ffffff;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 3px solid #F25912;
+    display: flex;
+    background-size: cover;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #412B6B;
+    
+}
+
+.navbar li {
+    align-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.navbar li a:hover {
+    background-color: #F25912;
+}
+
+.hero_section {
+    background-image: url(Images/Linkedin_Cover.png);
+    background-size: cover;
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: content;
+    align-items: center;
+}
+
+.hero_section h1 {
+    display: block;
+    font-size: 40px;
+    color: #F25912;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-shadow: 2px 2px 4px #000000;
+    border-radius: 5px;
+    border: 1px solid #F25912;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+.hero_section:hover h1 {
+    opacity: 1;
+}
+
+.Home{
+    display: block;
+}
+
+.About-Me{
+    border-top: 4px solid #F25912;
+    background-color: #412B6B;
+    padding: 1px 0px;
+}
+
+.About-Me h1,h2{
+    margin-left:200px;
+    margin-right: auto;
+    text-align: center;
+    justify-content: left;
+}
+
+.Label{
+    display: block;
+    text-align: center;
+}
+
+.Motion-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Motion-Graphics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 150px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.Vertical{
+    grid-row: auto/span 2;
+}
+
+.Horizontal{
+    grid-column: auto/span 2;
+}
+
+.BIG{
+    grid-column: auto/span 2;
+    grid-row: auto/span 2;
+}
+
+#Skills-id{
+    margin: 0px 100px;
+    padding-top: 50px;
+}
+
+#Skills-id h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Technical-skills{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.Technical-skills img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#Services-id{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-bottom: 200px;
+}
+
+#Services-id h1{
+    background-color: #F25912;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 0px #ffffff;
+}
